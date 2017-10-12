@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BusinessZ/Classes/*'
+  s.source_files = 'BusinessZ/Classes/**/*.{h,m}'
   
  end
